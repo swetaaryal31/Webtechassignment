@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Assignment2</title>
+  <style>
+    body {
+      justify-content: center;
+      margin-top: 40px;
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .sn { 
+        width: 10%; 
+        font-weight: bold; }
+    .first { 
+        width: 20%; 
+    }
+    .last {
+         width: 20%; 
+        }
+    .address {
+         width: 50%; font-weight: bold; 
+        }
+
+    .sub {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<h1>Table</h1>
+<table>
+  <tr>
+    <td rowspan="2" class="sn">SN</td>
+    <td colspan="2"><strong>Name</strong></td>
+    <td rowspan="2" class="address">Address</td>
+  </tr>
+
+  
+  <tr>
+    <td class="sub">First</td>
+    <td class="sub">Last</td>
+  </tr>
+
+  
+  <tr>
+    <td>1</td>
+    <td class="first">Ram</td>
+    <td class="last">Gautam</td>
+    <td>Bhaktapur</td>
+  </tr>
+
+  
+  <tr>
+    <td>2</td>
+    <td class="first">Shyam</td>
+    <td class="last">Khatri</td>
+    <td>Kathmandu</td>
+  </tr>
+
+ 
+  <tr>
+    <td>3</td>
+    <td class="first">Rahul</td>
+    <td class="last">Acharya</td>
+    <td>Lalitpur</td>
+  </tr>
+
+ 
+  <tr>
+    <td>4</td>
+    <td class="first">Aman</td>
+    <td class="last">Shrestha</td>
+    <td>Kavre</td>
+  </tr>
+</table>
+
+</body>
+</html>
