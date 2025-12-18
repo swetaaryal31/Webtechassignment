@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment1</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 80px;
+  background-color: #28b34b;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  height: 70px;
+  margin-bottom: 2px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  font-size: medium;
+}
+
+.purple {
+  background-color: #9b4fa3;
+  width: 20%;
+}
+
+.orange {
+  background-color: #ff8c2a;
+  width: 60%;
+}
+
+.yellow {
+  background-color: #fff200;
+  width: 20%;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  height: 60px;
+  background-color: #efe6b0;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+
+
+  <div class="header">
+    <h1>This is header</h1>
+</div>
+
+
+  <div class="nav">
+    <div class="nav-item purple">Item 1</div>
+    <div class="nav-item orange">Item 2</div>
+    <div class="nav-item yellow">Item 3</div>
+  </div>
+
+
+  <div class="content">
+    <h1>Content Area</h1>
+  </div>
+
+
+  <footer><h1>This is footer</h1></footer>
+
+  
+</body>
+</html>
